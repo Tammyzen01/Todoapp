@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "462711796631",
+    "project_id": "todo-5c81e",
+    "storage_bucket": "todo-5c81e.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:462711796631:android:2d7ece8c4608410168cad2",
+        "android_client_info": {
+          "package_name": "com.reduxproject"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAsSZiEhhBhKO0Q2MBySkRAVqEeibgkIrM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -55,7 +55,7 @@ export const AddItem = ({ route })=>{
 
     return(
         <SafeAreaView style={styles.container}>
-          {/* <View style={styles.homeFirstView}>
+          <View style={styles.homeFirstView}>
           <View style={styles.locView}>
 
           <TouchableOpacity style={styles.imageView} onPress={back}>
@@ -95,14 +95,14 @@ export const AddItem = ({ route })=>{
              
                {isShowErr? <View style={styles.errView}>
                   <Text style={styles.errorText}>All fields should be filled with your dreams</Text>
-                </View>:null} */}
+                </View>:null}
 
-                <View style={styles.contentView}>
+                {/* <View style={styles.contentView}>
            <View style={styles.titleBarView}>
 
            <CustomTextInput />
            </View>
-           </View>
+           </View> */}
                
         </SafeAreaView>
     )

@@ -1,9 +1,9 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import {NavigationContainer} from '@react-navigation/native';
 import {createStackNavigator} from '@react-navigation/stack';
 import {createDrawerNavigator} from '@react-navigation/drawer';
 import { navigationRef } from './src/utilities';
-
+import { requestUserPermission,NotificationListener } from './src/utilities';
 
 //screens
 import { 
@@ -34,8 +34,13 @@ function DrawerRoot() {
 
 const App  = ()=> {
 
+  useEffect(()=>{
+     requestUserPermission();
+     NotificationListener();
+  },[])
+
     let INITIAL = 'Drawer';
-    
+
     return (
       <Provider store={store}>
         <PersistGate persistor={persistor}>

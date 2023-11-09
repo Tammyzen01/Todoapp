@@ -26,6 +26,8 @@ if linkage != nil
 end
 
 target 'reduxproject' do
+  pod 'Firebase/Core'
+  pod 'GoogleUtilities', :modular_headers => true
   config = use_native_modules!
 
   # Flags change depending on the env values.
